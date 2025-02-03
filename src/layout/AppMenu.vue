@@ -20,7 +20,12 @@ const model = ref([
                 label: 'AI',
                 icon: 'pi pi-fw pi-comments',
                 to: '/apps/chat'
-            }
+            },
+            {
+                label: 'Test AI Chat',
+                icon: 'pi pi-fw pi-comment',
+                to: '/apps/test-chat'
+            },
         ]
     }
 ]);

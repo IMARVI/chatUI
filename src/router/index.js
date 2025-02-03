@@ -21,6 +21,11 @@ const routes = [
                 name: 'tasklist',
                 component: () => import('@/views/apps/tasklist/Index.vue')
             },
+            {
+                path: '/apps/test-chat',
+                name: 'test-chat',
+                component: () => import('@/views/apps/test-chat/TestChat.vue')
+            }
         ]
     },];
 
